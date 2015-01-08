@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <LinearLayout
+        android:layout_weight="1"
+          android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+        >
+   <ScrollView
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+   >
+    
+<LinearLayout
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+     <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etGiftTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a title"
+        android:textSize="20sp"
+        android:textStyle="italic"
+         />
+   <ImageView
+        android:id="@+id/imGiftImage"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_action_camera"
+        
+        ></ImageView>
+   
+     <EditText
+         android:layout_marginTop="20dp"
+        android:id="@+id/tvGiftText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="Enter some text"
+        android:inputType="textMultiLine"    
+        
+         />
+     <LinearLayout        
+         android:padding="10dp"
+          android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+         >
+          <TextView
+              android:id="@+id/tvGeoLabel"             
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/cur_loc"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            
+            ></TextView>
+         </LinearLayout>
+      
+   
+</LinearLayout>
+
+    </ScrollView>
+    </LinearLayout>  
+    
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/aniou_000/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.2.3.RELEASE/76dffb9b355448255291533a8499ec801349b570/spring-security-core-3.2.3.RELEASE.jar" sourcepath="C:/Users/aniou_000/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.2.3.RELEASE/51380829a8afe7551ea1dad7d784beb52700b471/spring-security-core-3.2.3.RELEASE-sources.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

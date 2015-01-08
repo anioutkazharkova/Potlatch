@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical"
+     android:id="@+id/btnAddChain"
+     android:background="@drawable/image_button_states"
+     android:layout_gravity="bottom"
+     android:gravity="bottom" >
+ <!--<ImageButton
+        android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:id="@+id/btnAddChain"
+    android:src="@drawable/sym_action_add"
+    android:scaleType="fitStart"
+    android:background="@drawable/image_button_states"
+        ></ImageButton>
+-->
+<TextView
+    android:id="@+id/tvMenuLabel"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add"
+    android:textStyle="bold"    
+    android:textAllCaps="true"
+    ></TextView>
+</LinearLayout>

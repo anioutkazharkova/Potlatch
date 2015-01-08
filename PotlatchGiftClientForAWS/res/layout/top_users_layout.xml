@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+  >
+  <LinearLayout
+       android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+      >
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/trophy"
+        android:scaleType="fitCenter"
+        android:layout_width="150dp"
+        android:layout_height="150dp" 
+        android:gravity="center_horizontal"
+        
+        ></ImageView>
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        ></View>
+    <ListView
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:dividerHeight="0dp"
+    android:id="@+id/lvUsers"
+        ></ListView>
+
+</LinearLayout>

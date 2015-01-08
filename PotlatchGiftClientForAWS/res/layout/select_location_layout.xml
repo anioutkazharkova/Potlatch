@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <LinearLayout
+       android:paddingLeft="5dp"
+       android:paddingRight="5dp"
+       android:paddingBottom="5dp"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+       <fragment 
+          android:id="@+id/map"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"          
+          android:name="com.google.android.gms.maps.SupportMapFragment"/>
+        </LinearLayout>
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@drawable/add_panel"
+       >
+    <LinearLayout
+        android:id="@+id/layoutCurrentLocation"
+         android:layout_width="match_parent"
+         android:layout_marginLeft="20dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"        
+        android:background="@drawable/image_button_states"
+        >
+        <TextView             
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/cur_loc"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            
+            ></TextView>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory       
+       
+        android:title="@string/censore_set"
+        >
+    <CheckBoxPreference 
+        android:key="chbShowInappopriate"
+        android:title="@string/dont_show_inapp"
+        />
+    <CheckBoxPreference 
+        android:key="chbShowObscene"
+        android:title="@string/dont_show_obscene"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+      
+        android:title="@string/update_set"
+        >
+        <CheckBoxPreference
+android:key="chbUpdatePeriod"
+android:title="@string/update_period"
+/>
+        <ListPreference
+            android:title="@string/update_item"
+            android:key="listUpdateTime"
+             android:entryValues="@array/update_entry_values"
+              android:entries="@array/update_entries"/>
+       
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">Potlatch-Client</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string-array name="drawer_items_array">
+        <item>New gifts</item>
+        <item>Top givers</item>
+        <item>My gifts</item>
+        <item>Settings</item>
+        <item>Login</item>      
+    </string-array>
+    <string name="create_activity">Create a gift</string>
+    <string name="chain_activity">Gift chain</string>
+    <string name="select_location">Select location</string>
+    <string name="test">test</string>
+    <string name="cur_loc">Selected location: </string>
+    <string name="do_you_want_delete">Do you really want to delete this gift?</string>
+    <string name="do_you_want_inapp">Do you really want to mark this gift as inappropriate?</string>
+    <string name="do_you_want_obscene">Do you really want to mark this gift as obscene?</string>
+    <string name="gift_was_marked_obscene">Gift was marked as inappropriate/obscene</string>
+    <string name="gift_was_unmarked">Your mark was deleted</string>
+    <string name="log_to_touch">Log in to touch a gift</string>
+    <string name="log_to_add">Log in to create a gift</string>
+    <string name="log_to_view">Log in to view your gifts</string>
+    <string name="dont_show_inapp">Do not show inappropriate gifts</string>
+    <string name="dont_show_obscene">Do not show obscene gifts</string>
+    <string name="update_period">Update touches periodically</string>
+    <string name="set_update_period">Set update period</string>
+    <string name="censore_set">Censore settings</string>
+    <string name="update_set">Update settings</string>
+    <string name="update_item">Select update period</string>
+    <string-array name="update_entries">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+        <item>5 minutes</item>
+        <item>15 minuters</item>
+    </string-array>
+    <string-array name="update_entry_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+    </string-array>
+<string name="ok">OK</string>
+<string name="cancel">Cancel</string>
+</resources>

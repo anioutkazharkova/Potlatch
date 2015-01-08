@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.coursera.capstone.potlatch.PotlatchGiftActivity" >
+
+    <item
+        android:id="@+id/btnSave"       
+        android:showAsAction="always"
+        android:title="Save"
+        android:actionLayout="@layout/gift_create_menu_layout"
+       />
+    <item
+        android:id="@+id/btnAddGeo"
+        android:showAsAction="never"
+        android:title="Set geo location"
+        android:actionLayout="@layout/gift_create_menu_layout"
+        />
+    
+
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/setObscene"
+        android:title="Mark as obscene"
+        android:showAsAction="never"
+       android:actionLayout="@layout/gift_create_menu_layout"
+        
+        />
+    <item 
+        android:id="@+id/setInappropriate"
+        android:title="Mark as inappropriate"
+        android:showAsAction="never"
+       android:actionLayout="@layout/gift_create_menu_layout"
+        
+        />
+
+</menu>
